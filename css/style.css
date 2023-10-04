@@ -298,7 +298,8 @@ svg {
 
 @media only screen and (min-width: 1158px) {
   .hero-image {
-    width: 1440px;
+    min-width: 1158px;
+    max-width: 100%;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -767,7 +768,8 @@ svg {
 }
 @media screen and (min-width: 1158px) {
   .footer-section {
-    max-width: 1440px;
+    min-width: 1158px;
+    max-width: 100%;
   }
 }
 
