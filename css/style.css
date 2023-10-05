@@ -247,9 +247,9 @@ svg {
 /* Hero-section*/
 
 .hero-image {
-  /* max-width: 100%; */
+  max-width: 100%;
   min-width: 320px;
-  max-width: 767px;
+  /* max-width: 767px; */
   background: #2e2f42;
   padding: 188px 0;
   background-repeat: no-repeat;
@@ -261,6 +261,9 @@ svg {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-image/people-office_desk.jpg);
+}
+.hero-image .container {
+  max-width: 100%;
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -275,8 +278,8 @@ svg {
 
 @media only screen and (min-width: 768px) {
   .hero-image {
-    min-width: 768px;
-    max-width: 1157px;
+    /* min-width: 768px;
+    max-width: 1157px; */
 
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -298,8 +301,8 @@ svg {
 
 @media only screen and (min-width: 1158px) {
   .hero-image {
-    min-width: 1158px;
-    max-width: 100%;
+    /* min-width: 1158px;
+    max-width: 100%; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -459,9 +462,13 @@ svg {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
+  .feature-title {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -471,7 +478,6 @@ svg {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
   }
 }
 .feature-text {
@@ -557,7 +563,7 @@ svg {
   /* margin-bottom: 8px;
   margin-top: 32px; */
   /* padding: 20px 0 8px; */
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: #2e2f42;
   background-color: #ffffff;
   font-size: 20px;
@@ -571,7 +577,7 @@ svg {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .our-team-list-icon {
   display: flex;
